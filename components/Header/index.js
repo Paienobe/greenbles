@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Button, Drawer, Radio, Space } from 'antd'
 import React, { useState } from 'react'
 import { HiMenuAlt3 } from 'react-icons/hi'
+import Link from 'next/link'
 
 function Header() {
   const [visible, setVisible] = useState(false)
@@ -22,18 +23,19 @@ function Header() {
         <div className='flex flex-col space-y-[25px]'>
           <div>
             {' '}
-            <h1 className='leading-[13px] text-base pr-[73px] font-[350] text-secondary'>
-              {' '}
-              HOME{' '}
-            </h1>{' '}
+            <Link href='/'>
+              <h1 className='leading-[13px] text-base pr-[73px] font-[350] text-secondary cursor-pointer'>
+                HOME
+              </h1>
+            </Link>
           </div>
           <div className='flex items-center pr-[65px]'>
             <div>
-              {' '}
-              <h1 className='leading-[13px] text-base pr-[6px] font-[350] text-secondary'>
-                {' '}
-                PRODUCTS
-              </h1>
+              <Link href='/products'>
+                <h1 className='leading-[13px] text-base pr-[6px] font-[350] text-secondary'>
+                  PRODUCTS
+                </h1>
+              </Link>
             </div>
             <div>
               {' '}
@@ -110,19 +112,19 @@ function Header() {
           </div>
           <div className='flex hidden md:flex'>
             <div>
-              {' '}
-              <h1 className='leading-[13px] text-base pr-[73px] font-[350] text-secondary'>
-                {' '}
-                HOME{' '}
-              </h1>{' '}
+              <Link href='/'>
+                <h1 className='leading-[13px] text-base pr-[73px] font-[350] text-secondary'>
+                  HOME
+                </h1>
+              </Link>
             </div>
             <div className='flex items-center pr-[65px]'>
               <div>
-                {' '}
-                <h1 className='leading-[13px] text-base pr-[6px] font-[350] text-secondary'>
-                  {' '}
-                  PRODUCTS
-                </h1>
+                <Link href='/products'>
+                  <h1 className='leading-[13px] text-base pr-[6px] font-[350] text-secondary'>
+                    PRODUCTS
+                  </h1>
+                </Link>
               </div>
               <div>
                 {' '}

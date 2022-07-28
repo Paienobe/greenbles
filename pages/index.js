@@ -169,12 +169,12 @@ export default function Home() {
                 <Image src={bg2} className='green_bg' sizes='100vw' />
               </div>
               <div className='max-w-[459px] mx-auto absolute top-1/4 bottom-1/4 left-0 right-0 sm:top-0 sm:bottom:0'>
-                <h1 className='text-center pb-[47px] text-[#fff] text-lg sm:p-0'>
+                <h1 className='text-center pb-[47px] text-[#fff] text-lg sm:p-0 md:pb-2'>
                   {' '}
                   Donating for Social Impact
                 </h1>
 
-                <h2 className=' text-center text-[30px] text-[#fff] pb-[53px] sm:p-0 sm:text-sm'>
+                <h2 className=' text-center text-[30px] text-[#fff] pb-[53px] sm:p-0 sm:text-sm md:pb-0'>
                   {' '}
                   Willing to donate your harvest to the less privileged
                 </h2>

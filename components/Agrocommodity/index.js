@@ -73,8 +73,8 @@ function Agro() {
         </div>
 
         <div className='max-w-[1000px] mx-auto'>
-          <div className='flex gap-[25px] py-[50px] sm:flex-col'>
-            <div className='bg-[#ffffff] basis-1/2 shadow-9xl flex pl-[39px] pr-[58px] pt-[44px] pb-[37px] sm:p-4 sm:justify-between sm:m-3'>
+          <div className='flex gap-[25px] py-[50px] sm:flex-col md:px-4 '>
+            <div className='bg-[#ffffff] basis-1/2 shadow-9xl flex pl-[39px] pr-[58px] pt-[44px] pb-[37px] sm:p-4 sm:justify-between sm:m-3 '>
               <div className='w-[15%]'>
                 <Image src={A1} className='' alt='agric' />
               </div>

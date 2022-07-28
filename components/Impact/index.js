@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 function SocialImpact() {
   return (
-    <div className='max-w-[1200px] mx-auto pt-[71px] pb-[146.22px] sm:max-w-full'>
-      <div className='bg-tahiti-uni max-w-[60%] mx-auto py-[60px] pr-[70px] relative sm:max-w-full sm:p-4'>
-        <div className='ml-[35%] w-[65%] sm:ml-0 sm:w-full sm:text-center'>
+    <div className='max-w-[1200px] mx-auto pt-[71px] pb-[146.22px] sm:max-w-full '>
+      <div className='bg-tahiti-uni max-w-[60%] mx-auto py-[60px] pr-[70px] relative sm:max-w-full sm:p-4 md:max-w-[80%] md:ml-auto'>
+        <div className='ml-[35%] w-[65%] sm:ml-0 sm:w-full sm:text-center md:ml-[40%]'>
           <h1 className='font-[350] text-[20px] pb-[26px] text-tahiti-green'>
             {' '}
             Donating for Social Impact{' '}
@@ -33,7 +33,7 @@ function SocialImpact() {
           </h2>
         </div>
 
-        <div className='absolute top-[35%] left-[-90px] sm:static sm:flex sm:justify-center sm:mt-8'>
+        <div className='absolute top-[35%] left-[-90px] sm:static sm:flex sm:justify-center sm:mt-8 md:left-[-70px]'>
           <Image src={I1} alt='impact-image' />
         </div>
       </div>

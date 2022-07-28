@@ -22,7 +22,10 @@ module.exports = {
         'hero-img': "url('/assets/bg_1.jpeg')",
         'hero-image': "url('/assets/bg_2.jpg')",
       },
-      screens: { sm: { max: '576px' } },
+      screens: {
+        sm: { max: '576px' },
+        // md: { min: '580px', max: '750px' }
+      },
     },
   },
 
