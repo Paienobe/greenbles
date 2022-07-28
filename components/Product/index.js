@@ -11,7 +11,7 @@ function Product() {
         OTHER GREENBLES PRODUCTS
       </h1>
 
-      <div className='flex gap-[32px]'>
+      <div className='flex gap-[32px] sm:flex-col'>
         <div className='basis-1/3'>
           <Image src={P1} alt='product-1' className='w-full' sizes='100%' />
 
@@ -48,7 +48,7 @@ function Product() {
         </div>
       </div>
 
-      <div className='flex py-[66px] gap-[32px]'>
+      <div className='flex py-[66px] gap-[32px] sm:flex-col'>
         <div className='basis-1/3'>
           <Image src={P1} alt='product-1' className='w-full' sizes='100%' />
 

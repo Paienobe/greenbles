@@ -28,8 +28,8 @@ export default function Home() {
           <div className='pt-[89px]  bg-[#F5F1ED]'>
             <div className='max-w-[900px] mx-auto pb-[14px] mb-12'>
               <h1 className='text-center text-4xl pb-12'>Why Greenbles</h1>
-              <div className='w-[80%] mx-auto flex items-start flex-wrap justify-between'>
-                <div className='w-[30%] mb-10'>
+              <div className='w-[80%] mx-auto flex items-start flex-wrap justify-between sm:flex-col'>
+                <div className='w-[30%] sm:w-full sm:text-center sm:mb-10 mb-10'>
                   <h1 className='text-tahiti-green text-3xl font-[700] pb-[18px]'>
                     309,156.80
                   </h1>
@@ -38,7 +38,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className='w-[30%]'>
+                <div className='w-[30%] sm:w-full sm:text-center sm:mb-10'>
                   <h1 className='text-tahiti-green text-3xl font-[700] pb-[18px]'>
                     71208
                   </h1>
@@ -47,7 +47,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className='w-[30%]'>
+                <div className='w-[30%] sm:w-full sm:text-center sm:mb-10'>
                   <h1 className='text-tahiti-green text-3xl font-[700] pb-[18px]'>
                     31770
                   </h1>
@@ -56,7 +56,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className='w-[30%]'>
+                <div className='w-[30%] sm:w-full sm:text-center sm:mb-10'>
                   <h1 className='text-tahiti-green text-3xl font-[700] pb-[18px]'>
                     8,000,000
                   </h1>
@@ -66,7 +66,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className='w-[30%]'>
+                <div className='w-[30%] sm:w-full sm:text-center sm:mb-10'>
                   <h1 className='text-tahiti-green text-3xl font-[700] pb-[18px]'>
                     1927
                   </h1>
@@ -75,7 +75,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className='w-[30%]'>
+                <div className='w-[30%] sm:w-full sm:text-center sm:mb-10'>
                   <h1 className='text-tahiti-green text-3xl font-[700] pb-[18px]'>
                     $21m
                   </h1>
@@ -168,13 +168,13 @@ export default function Home() {
               <div className='img_container w-full'>
                 <Image src={bg2} className='green_bg' sizes='100vw' />
               </div>
-              <div className='max-w-[459px] mx-auto absolute top-1/4 bottom-1/4 left-0 right-0'>
-                <h1 className='text-center pb-[47px] text-[#fff] text-lg'>
+              <div className='max-w-[459px] mx-auto absolute top-1/4 bottom-1/4 left-0 right-0 sm:top-0 sm:bottom:0'>
+                <h1 className='text-center pb-[47px] text-[#fff] text-lg sm:p-0'>
                   {' '}
                   Donating for Social Impact
                 </h1>
 
-                <h2 className=' text-center text-[30px] text-[#fff] pb-[53px]'>
+                <h2 className=' text-center text-[30px] text-[#fff] pb-[53px] sm:p-0 sm:text-sm'>
                   {' '}
                   Willing to donate your harvest to the less privileged
                 </h2>

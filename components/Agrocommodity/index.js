@@ -32,7 +32,7 @@ function Agro() {
         </div>
 
         <div className='max-w-[1000px] mx-auto'>
-          <div className='flex gap-[16px] py-[50px]'>
+          <div className='flex gap-[16px] py-[50px] sm:flex-col'>
             <div className='basis-1/3'>
               <div className=''>
                 <h1 className='text-center text-tahiti-green text-4xl font-[700] pb-[18px]'>
@@ -73,8 +73,8 @@ function Agro() {
         </div>
 
         <div className='max-w-[1000px] mx-auto'>
-          <div className='flex gap-[25px] py-[50px]'>
-            <div className='bg-[#ffffff] basis-1/2 shadow-9xl flex pl-[39px] pr-[58px] pt-[44px] pb-[37px]'>
+          <div className='flex gap-[25px] py-[50px] sm:flex-col'>
+            <div className='bg-[#ffffff] basis-1/2 shadow-9xl flex pl-[39px] pr-[58px] pt-[44px] pb-[37px] sm:p-4 sm:justify-between sm:m-3'>
               <div className='w-[15%]'>
                 <Image src={A1} className='' alt='agric' />
               </div>
@@ -89,8 +89,8 @@ function Agro() {
                 <h1 className='text-tahiti-green'> AMARA ODENIGBO</h1>
               </div>
             </div>
-            <div className='bg-[#ffffff] basis-1/2 shadow-9xl flex pl-[39px] pr-[58px] pt-[44px] pb-[37px]'>
-              <div className='w-[15%]'>
+            <div className='bg-[#ffffff] basis-1/2 shadow-9xl flex pl-[39px] pr-[58px] pt-[44px] pb-[37px] sm:p-4 sm:justify-between sm:m-3'>
+              <div className='w-[15%] sm:w-8'>
                 <Image src={A1} className='' alt='agric' />
               </div>
               <div className='w-[85%]'>
