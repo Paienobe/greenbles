@@ -25,12 +25,14 @@ export default function Home() {
           <Impact />
           <Agro />
           <Product />
-          <div className='pt-[89px]  bg-[#F5F1ED]'>
+          <div className='pt-[75px]  bg-[#F5F1ED]'>
             <div className='max-w-[900px] mx-auto pb-[14px] mb-12'>
-              <h1 className='text-center text-4xl pb-12'>Why Greenbles</h1>
-              <div className='w-[80%] mx-auto flex items-start flex-wrap justify-between sm:flex-col'>
+              <h1 className='text-center font-bold text-4xl pb-12'>
+                Why Greenbles
+              </h1>
+              <div className='w-[80%] mx-[10%] flex items-start flex-wrap justify-between sm:flex-col text-center'>
                 <div className='w-[30%] sm:w-full sm:text-center sm:mb-10 mb-10'>
-                  <h1 className='text-tahiti-green text-3xl font-[700] pb-[18px]'>
+                  <h1 className='text-tahiti-green text-3xl font-semibold pb-[18px]'>
                     309,156.80
                   </h1>
                   <p className='font-[350] text-[#5b5b5b] text-md uppercase'>
@@ -39,8 +41,8 @@ export default function Home() {
                 </div>
 
                 <div className='w-[30%] sm:w-full sm:text-center sm:mb-10'>
-                  <h1 className='text-tahiti-green text-3xl font-[700] pb-[18px]'>
-                    71208
+                  <h1 className='text-tahiti-green text-3xl font-semibold pb-[18px]'>
+                    71,208
                   </h1>
                   <p className='font-[350] text-[#5b5b5b] text-md uppercase'>
                     agriculture enthusiasts & followers
@@ -48,8 +50,8 @@ export default function Home() {
                 </div>
 
                 <div className='w-[30%] sm:w-full sm:text-center sm:mb-10'>
-                  <h1 className='text-tahiti-green text-3xl font-[700] pb-[18px]'>
-                    31770
+                  <h1 className='text-tahiti-green text-4xl font-semibold pb-[18px]'>
+                    31,770
                   </h1>
                   <p className='font-[350] text-[#5b5b5b] text-md uppercase'>
                     success farmers testimony
@@ -57,7 +59,7 @@ export default function Home() {
                 </div>
 
                 <div className='w-[30%] sm:w-full sm:text-center sm:mb-10'>
-                  <h1 className='text-tahiti-green text-3xl font-[700] pb-[18px]'>
+                  <h1 className='text-tahiti-green text-4xl font-semibold pb-[18px]'>
                     8,000,000
                   </h1>
                   <p className='font-[350] text-[#5b5b5b] text-md uppercase'>
@@ -67,8 +69,8 @@ export default function Home() {
                 </div>
 
                 <div className='w-[30%] sm:w-full sm:text-center sm:mb-10'>
-                  <h1 className='text-tahiti-green text-3xl font-[700] pb-[18px]'>
-                    1927
+                  <h1 className='text-tahiti-green text-4xl font-semibold pb-[18px]'>
+                    1,927
                   </h1>
                   <p className='font-[350] text-[#5b5b5b] text-md uppercase'>
                     farmers network
@@ -76,7 +78,7 @@ export default function Home() {
                 </div>
 
                 <div className='w-[30%] sm:w-full sm:text-center sm:mb-10'>
-                  <h1 className='text-tahiti-green text-3xl font-[700] pb-[18px]'>
+                  <h1 className='text-tahiti-green text-4xl font-semibold pb-[18px]'>
                     $21m
                   </h1>
                   <p className='font-[350] text-[#5b5b5b] text-md uppercase'>
@@ -168,21 +170,19 @@ export default function Home() {
               <div className='img_container w-full'>
                 <Image src={bg2} className='green_bg' sizes='100vw' />
               </div>
-              <div className='max-w-[459px] mx-auto absolute top-1/4 bottom-1/4 left-0 right-0 sm:top-0 sm:bottom:0'>
-                <h1 className='text-center pb-[47px] text-[#fff] text-lg sm:p-0 md:pb-2'>
-                  {' '}
+
+              <div className='max-w-[459px] mx-auto absolute top-1/4 bottom-[1/4] left-0 right-0 sm:top-0 sm:bottom:0'>
+                <h1 className='text-center pb-[47px] text-[#fff] text-xl sm:p-0 md:pb-2 font-light'>
                   Donating for Social Impact
                 </h1>
 
-                <h2 className=' text-center text-[30px] text-[#fff] pb-[53px] sm:p-0 sm:text-sm md:pb-0'>
-                  {' '}
+                <h2 className=' text-center text-[30px] text-[#fff] pb-[53px] uppercase sm:p-0 sm:text-sm md:pb-0'>
                   Willing to donate your harvest to the less privileged
                 </h2>
 
                 <div className='flex justify-center'>
-                  <button className='bg-[#85C226] text-[#fff] w-[150px] h-[30px]'>
-                    {' '}
-                    Donate Now{' '}
+                  <button className='bg-[#85C226] text-[#fff] w-[150px] h-[40px]'>
+                    Donate Now
                   </button>
                 </div>
               </div>

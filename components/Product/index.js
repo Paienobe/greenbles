@@ -12,34 +12,33 @@ function Product() {
       </h1>
 
       <div className='flex gap-[32px] sm:flex-col'>
-        <div className='basis-1/3'>
+        <div className='basis-1/3 shadow-xl'>
           <Image src={P1} alt='product-1' className='w-full' sizes='100%' />
 
-          <div className={` py-[30px] pl-[30px] ${styles.border}`}>
-            <h2 className='text-tahiti-green text-[22px] pb-[28px]'>
+          <div className={` py-[30px]  ${styles.border} text-center`}>
+            <h2 className='text-tahiti-green text-[22px] pb-[0px]'>
+              Agritourism
+            </h2>
+            <p className='text-[#c4c4c4]'> learn more</p>
+          </div>
+        </div>
+        <div className='basis-1/3 shadow-xl'>
+          <Image src={P1} alt='product-1' className='w-full' sizes='100%' />
+
+          <div className={` py-[30px]  ${styles.border} text-center`}>
+            <h2 className='text-tahiti-green text-[22px] pb-[0px]'>
               {' '}
               Agritourism
             </h2>
             <p className='text-[#c4c4c4]'> learn more</p>
           </div>
         </div>
-        <div className='basis-1/3'>
+
+        <div className='basis-1/3 shadow-xl'>
           <Image src={P1} alt='product-1' className='w-full' sizes='100%' />
 
-          <div className={` py-[30px] pl-[30px] ${styles.border}`}>
-            <h2 className='text-tahiti-green text-[22px] pb-[28px]'>
-              {' '}
-              Agritourism
-            </h2>
-            <p className='text-[#c4c4c4]'> learn more</p>
-          </div>
-        </div>
-
-        <div className='basis-1/3'>
-          <Image src={P1} alt='product-1' className='w-full' sizes='100%' />
-
-          <div className={` py-[30px] pl-[30px] ${styles.border}`}>
-            <h2 className='text-tahiti-green text-[22px] pb-[28px]'>
+          <div className={` py-[30px]  ${styles.border} text-center`}>
+            <h2 className='text-tahiti-green text-[22px] pb-[0px]'>
               {' '}
               Agritourism
             </h2>
@@ -49,35 +48,32 @@ function Product() {
       </div>
 
       <div className='flex py-[66px] gap-[32px] sm:flex-col'>
-        <div className='basis-1/3'>
+        <div className='basis-1/3 shadow-xl'>
           <Image src={P1} alt='product-1' className='w-full' sizes='100%' />
 
-          <div className={` py-[30px] pl-[30px] ${styles.border}`}>
-            <h2 className='text-tahiti-green text-[22px] pb-[28px]'>
-              {' '}
+          <div className={` py-[30px]  ${styles.border} text-center`}>
+            <h2 className='text-tahiti-green text-[22px] pb-[0px]'>
               Agritourism
             </h2>
             <p className='text-[#c4c4c4]'> learn more</p>
           </div>
         </div>
-        <div className='basis-1/3'>
+        <div className='basis-1/3 shadow-xl'>
           <Image src={P1} alt='product-1' className='w-full' sizes='100%' />
 
-          <div className={` py-[30px] pl-[30px] ${styles.border}`}>
-            <h2 className='text-tahiti-green text-[22px] pb-[28px]'>
-              {' '}
+          <div className={` py-[30px]  ${styles.border} text-center`}>
+            <h2 className='text-tahiti-green text-[22px] pb-[0px]'>
               Agritourism
             </h2>
             <p className='text-[#c4c4c4]'> learn more</p>
           </div>
         </div>
 
-        <div className='basis-1/3'>
+        <div className='basis-1/3 shadow-xl'>
           <Image src={P1} alt='product-1' className='w-full' sizes='100%' />
 
-          <div className={` py-[30px] pl-[30px] ${styles.border}`}>
-            <h2 className='text-tahiti-green text-[22px] pb-[28px]'>
-              {' '}
+          <div className={` py-[30px]  ${styles.border} text-center`}>
+            <h2 className='text-tahiti-green text-[22px] pb-[0px]'>
               Agritourism
             </h2>
             <p className='text-[#c4c4c4]'> learn more</p>

@@ -1,14 +1,34 @@
 import React from 'react'
 import { popularProducts, allProducts } from '../data/home'
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi'
+import { FaSearch, FaShoppingCart } from 'react-icons/fa'
+import { AiFillCaretDown } from 'react-icons/ai'
+import logo from '../public/assets/green-logo.png'
+import Image from 'next/image'
 
 function Products() {
   return (
     <div>
-      <div className=' bg-[#000] h-[40px]'></div>
+      <div className=' bg-[#000] min-h-[40px] py-4 px-[5%] flex items-center justify-between sm:flex-wrap'>
+        <div className='bg-orange-500 text-white p-4 rounded-lg flex items-center sm:order-2'>
+          All Category
+          <AiFillCaretDown className='text-white ml-4' />
+        </div>
+
+        <div className='w-[50%] flex items-stretch rounded-lg overflow-hidden sm:order-1 sm:w-full sm:mb-4 sm:mt-4'>
+          <input
+            type='text'
+            className='w-full p-4'
+            placeholder='search for product'
+          />
+          <div className='bg-orange-500 p-4'>
+            <FaSearch className='text-white' />
+          </div>
+        </div>
+        <FaShoppingCart size={25} className='text-white sm:order-3' />
+      </div>
       <div className='w-full bg-hero-image bg-no-repeat bg-center  h-[400px] flex justify-center items-center'>
         <div>
-          {' '}
           <h1 className='text-white text-4xl font-bold'>Products </h1>
         </div>
       </div>

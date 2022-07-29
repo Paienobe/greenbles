@@ -22,7 +22,6 @@ function Header() {
       <Drawer placement='right' onClose={onClose} visible={visible}>
         <div className='flex flex-col space-y-[25px]'>
           <div>
-            {' '}
             <Link href='/'>
               <h1 className='leading-[13px] text-base pr-[73px] font-[350] text-secondary cursor-pointer'>
                 HOME
@@ -105,7 +104,7 @@ function Header() {
         </div>
       </Drawer>
       <div className='container mx-auto '>
-        <div className='flex items-center justify-between py-[64px]  px-[30px] lg:px-0'>
+        <div className='flex items-center justify-between py-[64px]  px-[30px] lg:px-[10%] sm:px-0 sm:py-8'>
           {/* logo */}
           <div className=' md:pr-10 lg:pr-[201.99px]'>
             <Image src={logo} alt='greenbles logo' />
