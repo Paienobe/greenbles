@@ -31,7 +31,9 @@ const items = [
 const Cart = () => {
   return (
     <div>
-      <Header />
+      <div className='sm:px-[5%]'>
+        <Header />
+      </div>
       <div className='min-h-screen flex items-start justify-between bg-tahiti-uni py-20 px-14 sm:flex-col sm:px-4'>
         <div className='items-list w-[70%] bg-white p-4 rounded sm:w-full'>
           <h1 className='font-bold text-2xl'>

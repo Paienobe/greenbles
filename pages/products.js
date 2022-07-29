@@ -6,25 +6,46 @@ import { TbHelp } from 'react-icons/tb'
 import { AiFillCaretDown, AiOutlineShoppingCart } from 'react-icons/ai'
 import logo from '../public/assets/green-logo.png'
 import Image from 'next/image'
+import Header from '@/components/Header'
 
 function Products() {
   return (
     <div>
       <div className=' bg-white min-h-[40px] py-4 px-[5%] flex items-center justify-between sm:flex-wrap sm:py-2'>
-        <Image src={logo} />
+        <div className='sm:flex sm:items-center'>
+          <div className='hidden sm:block sm:mr-4'>
+            <svg
+              stroke='currentColor'
+              fill='currentColor'
+              stroke-width='0'
+              viewBox='0 0 20 20'
+              class='text-[#000]'
+              height='1em'
+              width='1em'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <path
+                fill-rule='evenodd'
+                d='M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z'
+                clip-rule='evenodd'
+              ></path>
+            </svg>
+          </div>
+          <Image src={logo} />
+        </div>
 
         <div className='w-[50%] flex items-stretch  sm:order-1 sm:w-full sm:my-2'>
           <input
             type='text'
-            className='w-full p-4 py-2 border border-black border-opacity-20 rounded-lg'
+            className='w-full p-4 py-2 border border-black border-opacity-20 rounded-lg sm:p-1'
             placeholder='search for product'
           />
-          <div className='bg-orange-500 p-4 px-5 ml-2 flex item-center justify-center rounded-lg'>
-            <FaSearch className='text-white' size={22.5} />
+          <div className='bg-tahiti p-4 px-5 ml-2 flex item-center justify-center rounded-lg sm:py-1'>
+            <FaSearch className='text-white' size={21.5} />
           </div>
         </div>
 
-        <div className='flex items-center justify-between w-[30%]'>
+        <div className='flex items-center justify-between w-[30%] '>
           <div className='flex items-center'>
             <FaRegUser size={20} />
             <span className='mx-2 font-bold sm:hidden'>Account</span>

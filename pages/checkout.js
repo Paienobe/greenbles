@@ -4,7 +4,9 @@ import React from 'react'
 const Checkout = () => {
   return (
     <div>
-      <Header />
+      <div className='sm:px-[5%]'>
+        <Header />
+      </div>
       <div className='bg-tahiti-uni py-16 px-8 flex items-start justify-around sm:px-4 sm:flex-col'>
         <div className='w-[65%] bg-white p-8 py-4 pb-[4rem] shadow-lg rounded-lg sm:w-full'>
           <form>
