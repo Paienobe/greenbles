@@ -1,31 +1,50 @@
 import React from 'react'
 import { popularProducts, allProducts } from '../data/home'
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi'
-import { FaSearch, FaShoppingCart } from 'react-icons/fa'
-import { AiFillCaretDown } from 'react-icons/ai'
+import { FaSearch, FaShoppingCart, FaRegUser } from 'react-icons/fa'
+import { TbHelp } from 'react-icons/tb'
+import { AiFillCaretDown, AiOutlineShoppingCart } from 'react-icons/ai'
 import logo from '../public/assets/green-logo.png'
 import Image from 'next/image'
 
 function Products() {
   return (
     <div>
-      <div className=' bg-[#000] min-h-[40px] py-4 px-[5%] flex items-center justify-between sm:flex-wrap'>
-        <div className='bg-orange-500 text-white p-4 rounded-lg flex items-center sm:order-2'>
-          All Category
-          <AiFillCaretDown className='text-white ml-4' />
-        </div>
+      <div className=' bg-white min-h-[40px] py-4 px-[5%] flex items-center justify-between sm:flex-wrap sm:py-2'>
+        <Image src={logo} />
 
-        <div className='w-[50%] flex items-stretch rounded-lg overflow-hidden sm:order-1 sm:w-full sm:mb-4 sm:mt-4'>
+        <div className='w-[50%] flex items-stretch  sm:order-1 sm:w-full sm:my-2'>
           <input
             type='text'
-            className='w-full p-4'
+            className='w-full p-4 py-2 border border-black border-opacity-20 rounded-lg'
             placeholder='search for product'
           />
-          <div className='bg-orange-500 p-4'>
-            <FaSearch className='text-white' />
+          <div className='bg-orange-500 p-4 px-5 ml-2 flex item-center justify-center rounded-lg'>
+            <FaSearch className='text-white' size={22.5} />
           </div>
         </div>
-        <FaShoppingCart size={25} className='text-white sm:order-3' />
+
+        <div className='flex items-center justify-between w-[30%]'>
+          <div className='flex items-center'>
+            <FaRegUser size={20} />
+            <span className='mx-2 font-bold sm:hidden'>Account</span>
+            <AiFillCaretDown className='sm:hidden' />
+          </div>
+
+          <div className='flex items-center'>
+            <TbHelp size={20} />
+            <span className='mx-2 font-bold sm:hidden'>Help</span>
+            <AiFillCaretDown className='sm:hidden' />
+          </div>
+
+          <div className='flex'>
+            <AiOutlineShoppingCart
+              size={20}
+              className='text-black sm:order-3'
+            />
+            <span className='font-bold ml-2 sm:hidden'>Cart</span>
+          </div>
+        </div>
       </div>
       <div className='w-full bg-hero-image bg-no-repeat bg-center  h-[400px] flex justify-center items-center'>
         <div>
