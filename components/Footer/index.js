@@ -8,7 +8,7 @@ function Footer() {
         <div>
           <div className='max-w-[1187px] mx-auto md:px-10 lg:px-0 py-[43px]'>
             <div className='flex justify-between pt-5 sm:flex-col'>
-              <div className='max-w-[40%] sm:ml-8 sm:max-w-full'>
+              <div className='max-w-[40%] sm:ml-4 sm:max-w-full'>
                 <h1 className='text-xl leading-[19px] font-bold pb-[20px] sm:pb-3 text-tahiti'>
                   OFFICE ADDRESS
                 </h1>
@@ -22,7 +22,7 @@ function Footer() {
                 </p>
               </div>
 
-              <div className='sm:ml-8 sm:my-4'>
+              <div className='sm:ml-4 sm:my-4'>
                 <h2 className='text-xl  font-bold pb-[20px] leading-[19px] sm:pb-0 text-tahiti'>
                   NAVIGATION
                 </h2>
@@ -45,7 +45,7 @@ function Footer() {
                 </ul>
               </div>
 
-              <div className='sm:ml-8 sm:my-4'>
+              <div className='sm:ml-4 sm:my-4'>
                 <h2 className='text-xl  font-bold pb-[20px] leading-[19px] sm:pb-0 text-tahiti'>
                   INFORMATION
                 </h2>
@@ -67,7 +67,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className='border border-transparent border-t-black border-opacity-20 lg:px-[10%] md:px-[5%] flex items-center justify-between sm:flex-col sm:pb-4'>
+      <div className='border border-transparent border-t-black border-opacity-20 lg:px-[10%] md:px-[5%] flex items-center justify-between sm:flex-col sm:pb-4 sm:px-[5%]'>
         <div className='py-4 text-base md:w-[65%] '>
           <p className='pt-0 pb-0 m-0'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores

@@ -11,7 +11,7 @@ import Header from '@/components/Header'
 function Products() {
   return (
     <div>
-      <div className=' bg-white min-h-[40px] py-4 px-[5%] flex items-center justify-between sm:flex-wrap sm:py-2'>
+      <div className=' bg-white min-h-[40px] py-4 px-[5%] lg:px-[12%] md:px-[4%] flex items-center justify-between sm:flex-wrap sm:py-2'>
         <div className='sm:flex sm:items-center'>
           <div className='hidden sm:block sm:mr-4'>
             <svg
@@ -34,18 +34,18 @@ function Products() {
           <Image src={logo} />
         </div>
 
-        <div className='w-[50%] flex items-stretch  sm:order-1 sm:w-full sm:my-2'>
+        <div className='lg:w-[45%] md:w-[40%] flex items-stretch  sm:order-1 sm:w-full sm:my-2'>
           <input
             type='text'
             className='w-full p-4 py-2 border border-black border-opacity-20 rounded-lg sm:p-1'
             placeholder='search for product'
           />
-          <div className='bg-tahiti p-4 px-5 ml-2 flex item-center justify-center rounded-lg sm:py-1'>
+          <div className='bg-tahiti p-4 px-5 ml-2 flex item-center justify-center rounded-lg sm:py-2'>
             <FaSearch className='text-white' size={21.5} />
           </div>
         </div>
 
-        <div className='flex items-center justify-between w-[30%] '>
+        <div className='flex items-center justify-between w-[30%] md:w-[40%] lg:w-[35%] '>
           <div className='flex items-center'>
             <FaRegUser size={20} />
             <span className='mx-2 font-bold sm:hidden'>Account</span>
@@ -74,17 +74,15 @@ function Products() {
       </div>
 
       <div className='container mx-auto px-5 mt-10'>
-        <div className='drop-shadow bg-white bless-border px-5 py-10'>
+        <div className='drop-shadow bg-white bless-border px-5 py-10 md:mx-[2.5%] lg:mx-[7%]'>
           <div className='flex justify-between'>
             <div>
-              {' '}
               <h2 className='text-sm sm:text-base font-semibold uppercase'>
                 POPULAR PRODUCTS
               </h2>
             </div>
             <div className='flex gap-4'>
               <div>
-                {' '}
                 <svg
                   width='20'
                   height='20'
@@ -123,7 +121,33 @@ function Products() {
             </div>
           </div>
 
-          <div className='mt-5 flex space-x-5 lg:space-x-0 w-full flex-nowrap overflow-x-auto overflow-y-hidden lg:grid lg:overflow-hidden lg:grid-cols-4 lg:gap-y-14 lg:gap-x-10 sm:grid-cols-2 sm:gap-0 sm:overflow-x-scroll '>
+          <div className='flex items-center justify-between overflow-x-auto md:gap-4'>
+            {popularProducts.map((product) => {
+              return (
+                <div
+                  key={product.id}
+                  className='sm:min-w-[70%] product sm:mr-4'
+                >
+                  <img src={product.img} alt='shop item' className='w-full' />
+                  <p className='mt-5 text-sm font-bold text-center md:text-base'>
+                    {product.name}{' '}
+                  </p>
+                  <div className='mb-5 text-center'>
+                    <span className='text-sm font-semibold text-shopazBlack'>
+                      N{product.price}
+                    </span>
+                  </div>
+                  <button className='px-5 py-1 transition border rounded-lg rounded-bl-none border-tahiti-green text-shopazPurple hover:text-white md:py-2.5 lg:py-2 hover:bg-shopazPurple sm:w-full lg:w-full md:block md:mx-auto'>
+                    <span className='text-xs font-bold uppercase lg:text-sm '>
+                      Add to Cart
+                    </span>
+                  </button>
+                </div>
+              )
+            })}
+          </div>
+
+          {/* <div className='mt-5 flex space-x-5 lg:space-x-0 w-full flex-nowrap overflow-x-auto overflow-y-hidden lg:grid lg:overflow-hidden lg:grid-cols-4 lg:gap-y-14 lg:gap-x-10 sm:grid-cols-2 sm:gap-0 sm:overflow-x-scroll '>
             {popularProducts.map((product) => (
               <div key={product.id} className='basis-1/4 product'>
                 <img src={product.img} alt='shop item' className='w-full' />
@@ -132,7 +156,6 @@ function Products() {
                 </p>
                 <div className='mb-5 text-center'>
                   <span className='text-sm font-semibold text-shopazBlack'>
-                    {' '}
                     N{product.price}
                   </span>
                 </div>
@@ -144,12 +167,12 @@ function Products() {
                 </button>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
 
       <div className='container mx-auto px-5 mt-20'>
-        <div className='drop-shadow bg-white px-5 py-10 bless-border'>
+        <div className='drop-shadow bg-white px-5 py-10 bless-border md:mx-[2.5%] lg:mx-[7%]'>
           <div className='flex justify-center'>
             <div className='flex gap-2 sm:flex-wrap sm:items-center sm:justify-center'>
               <button className='btn active'> ALL</button>
@@ -178,7 +201,7 @@ function Products() {
                         N{products.price}
                       </span>
                     </div>
-                    <button className='px-5 py-1 transition border rounded-lg rounded-bl-none border-tahiti-green text-shopazPurple hover:text-white md:py-2.5 lg:py-2 hover:bg-shopazPurple lg:w-full sm:block sm:mx-auto'>
+                    <button className='px-5 py-1 transition border rounded-lg rounded-bl-none border-tahiti-green text-shopazPurple hover:text-white md:py-2.5 lg:py-2 hover:bg-shopazPurple lg:w-full md:block md:mx-auto sm:block sm:mx-auto'>
                       <span className='text-xs font-bold uppercase lg:text-sm '>
                         Add to Cart
                       </span>
