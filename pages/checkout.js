@@ -4,11 +4,11 @@ import React from 'react'
 const Checkout = () => {
   return (
     <div>
-      <div className='sm:px-[5%]'>
+      <div className='sm:px-[5%] md:px-[5%] lg:px-[0%]'>
         <Header />
       </div>
-      <div className='bg-tahiti-uni py-16 px-8 flex items-start justify-around sm:px-4 sm:flex-col'>
-        <div className='w-[65%] bg-white p-8 py-4 pb-[4rem] shadow-lg rounded-lg sm:w-full'>
+      <div className='bg-tahiti-uni py-16 px-10 lg:flex md:flex-col items-start justify-around sm:px-4 sm:flex-col'>
+        <div className='lg:w-[65%] md:w-full bg-white p-8 py-4 pb-[4rem] shadow-lg rounded-lg sm:w-full'>
           <form>
             <h1 className='font-bold text-2xl pb-4'>Shopper Checkout</h1>
             <div className='flex flex-wrap justify-between'>
@@ -118,7 +118,7 @@ const Checkout = () => {
           </form>
         </div>
 
-        <div className='bg-white w-[25%] py-4 px-4 rounded-md shadow-lg sm:w-full sm:mt-6'>
+        <div className='bg-white lg:w-[25%] md:w-[50%] lg:mt-0 md:mt-6 py-4 px-4 rounded-md shadow-lg sm:w-full sm:mt-6'>
           <h1 className='font-bold text-2xl pb-4'>Summary</h1>
           <div>
             <div className='flex justify-between'>

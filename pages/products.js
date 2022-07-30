@@ -74,7 +74,7 @@ function Products() {
       </div>
 
       <div className='container mx-auto px-5 mt-10'>
-        <div className='drop-shadow bg-white bless-border px-5 py-10 md:mx-[2.5%] lg:mx-[7%]'>
+        <div className='drop-shadow bg-white bless-border px-5 py-10 md:mx-[2.5%] lg:mx-[6%]'>
           <div className='flex justify-between'>
             <div>
               <h2 className='text-sm sm:text-base font-semibold uppercase'>
@@ -172,7 +172,7 @@ function Products() {
       </div>
 
       <div className='container mx-auto px-5 mt-20'>
-        <div className='drop-shadow bg-white px-5 py-10 bless-border md:mx-[2.5%] lg:mx-[7%]'>
+        <div className='drop-shadow bg-white px-5 py-10 bless-border md:mx-[2.5%] lg:mx-[6%]'>
           <div className='flex justify-center'>
             <div className='flex gap-2 sm:flex-wrap sm:items-center sm:justify-center'>
               <button className='btn active'> ALL</button>

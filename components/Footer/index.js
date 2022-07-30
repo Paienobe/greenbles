@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaWhatsapp } from 'react-icons/fa'
 function Footer() {
   return (
     <div className=' bg-[#ffffff]'>
-      <div className='lg:pt-[51px] lg:pb-[54px] md:py-[15px] sm:py-12 lg:px-[10%] sm:pb-[15px]'>
+      <div className='lg:pt-[51px] lg:pb-[54px] md:py-[15px] sm:py-12 lg:px-[9%] sm:pb-[15px]'>
         <div>
           <div className='max-w-[1187px] mx-auto md:px-10 lg:px-0 py-[43px]'>
             <div className='flex justify-between pt-5 sm:flex-col'>
@@ -67,7 +67,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className='border border-transparent border-t-black border-opacity-20 lg:px-[10%] md:px-[5%] flex items-center justify-between sm:flex-col sm:pb-4 sm:px-[5%]'>
+      <div className='border border-transparent border-t-black border-opacity-20 lg:px-[9%] md:px-[5%] flex items-center justify-between sm:flex-col sm:pb-4 sm:px-[5%]'>
         <div className='py-4 text-base md:w-[65%] '>
           <p className='pt-0 pb-0 m-0'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
