@@ -2,7 +2,7 @@ import React from 'react'
 
 function Card() {
   return (
-    <div className='pt-[55px] max-w-[1200px] mx-[10%] sm:mx-0'>
+    <div className='pt-[55px] max-w-[1200px] md:mx-[0%] lg:mx-[10%] sm:mx-0'>
       <h1 className='text-center font-bold text-3xl '>
         Agripreneur for everyone
       </h1>

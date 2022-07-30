@@ -104,20 +104,20 @@ function Header() {
         </div>
       </Drawer>
       <div className='container mx-auto '>
-        <div className='flex items-center justify-between py-[64px]  px-[30px] lg:px-[10%] sm:px-0 sm:py-8'>
+        <div className='flex items-center justify-between py-[64px]  px-[30px] md:px-[0%] lg:px-[10%] sm:px-0 sm:py-8'>
           {/* logo */}
           <div className=' md:pr-10 lg:pr-[201.99px]'>
             <Image src={logo} alt='greenbles logo' />
           </div>
-          <div className='flex hidden md:flex'>
+          <div className='flex hidden md:flex md:items-center'>
             <div>
               <Link href='/'>
-                <h1 className='leading-[13px] text-base pr-[73px] font-[350] text-secondary'>
+                <h1 className='leading-[13px] text-base lg:pr-[73px] md:pr-[23px] font-[350] text-secondary'>
                   HOME
                 </h1>
               </Link>
             </div>
-            <div className='flex items-center pr-[65px]'>
+            <div className='flex items-center lg:pr-[65px] md:pr-[25px]'>
               <div>
                 <Link href='/products'>
                   <h1 className='leading-[13px] text-base pr-[6px] font-[350] text-secondary'>
@@ -139,7 +139,7 @@ function Header() {
               </div>
             </div>
 
-            <div className='flex items-center pr-[57px]'>
+            <div className='flex items-center lg:pr-[57px] md:pr-[27px]'>
               <div>
                 {' '}
                 <h1 className='leading-[13px] text-base pr-[6px] font-[350] text-secondary'>
@@ -161,7 +161,7 @@ function Header() {
               </div>
             </div>
 
-            <div className='flex items-center pr-[45px]'>
+            <div className='flex items-center lg:pr-[45px] md:pr-[25px]'>
               <div>
                 {' '}
                 <h1 className='leading-[13px] text-base pr-[6px] font-[350] text-secondary'>

@@ -171,7 +171,7 @@ export default function Home() {
                 <Image src={bg2} className='green_bg' sizes='100vw' />
               </div>
 
-              <div className='max-w-[459px] mx-auto absolute top-1/4 bottom-[1/4] left-0 right-0 sm:top-0 sm:bottom:0'>
+              <div className='max-w-[459px] mx-auto absolute lg:top-1/4 lg:bottom-[1/4] md:top:[10%] md:bottom-[10%] left-0 right-0 sm:top-0 sm:bottom:0'>
                 <h1 className='text-center pb-[47px] text-[#fff] text-xl sm:p-0 md:pb-2 font-light'>
                   Donating for Social Impact
                 </h1>

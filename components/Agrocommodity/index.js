@@ -115,20 +115,6 @@ function Agro() {
                 <h1 className='text-tahiti-green'> AMARA ODENIGBO</h1>
               </div> */}
             </div>
-
-            {/* <div className='bg-[#ffffff] basis-1/2 shadow-9xl flex pl-[39px] pr-[58px] pt-[44px] pb-[37px] sm:p-4 sm:justify-between sm:m-3'>
-              <div className='w-[15%] sm:w-8'>
-                <Image src={A1} className='' alt='agric' />
-              </div>
-              <div className='w-[85%]'>
-                <h3 className='text-[16px]  pb-[33px]'>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry.
-                </h3>
-                <h1 className='text-tahiti-green'> AMARA ODENIGBO</h1>
-              </div>
-            </div> */}
           </div>
 
           <h1 className='text-[14px] text-[#5b5b5b] text-center pt-8 pb-[11px]'>

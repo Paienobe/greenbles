@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function SocialImpact() {
   return (
-    <div className='max-w-[1200px] mx-[10%] pt-[71px] pb-[146.22px] pr-[10%]  sm:pr-0 sm:mx-0 sm:max-w-full sm:pb-8 '>
+    <div className='max-w-[1200px] lg:mx-[10%] md:mx-0 pt-[71px] pb-[146.22px] pr-[10%]  sm:pr-0 sm:mx-0 sm:max-w-full sm:pb-8 '>
       <div className='bg-tahiti-uni max-w-[60%] ml-auto py-[60px] pr-[70px] rounded-xl relative sm:max-w-full sm:p-4 md:max-w-[80%] md:ml-auto'>
         <div className='ml-[35%] w-[65%] sm:ml-0 sm:w-full sm:text-center md:ml-[40%]'>
           <h1 className='font-semibold text-3xl pb-[26px] text-tahiti-green'>
@@ -28,7 +28,7 @@ function SocialImpact() {
           </h2>
         </div>
 
-        <div className='absolute top-[35%] left-[-90px] sm:static sm:flex sm:justify-center sm:mt-8 md:left-[-70px]'>
+        <div className='absolute lg:top-[35%] md:top-[55%] left-[-90px] sm:static sm:flex sm:justify-center sm:mt-8 md:left-[-90px] lg:left-[-70px]'>
           <Image src={I1} alt='impact-image' className='rounded-xl' />
         </div>
       </div>
